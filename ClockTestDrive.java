@@ -1,4 +1,5 @@
 class Clock {
+
 	String time;
 
 	void setTime(String t) {
@@ -11,6 +12,7 @@ class Clock {
 }
 
 class ClockTestDrive {
+	
 	public static void main(String [] args) {
 		Clock c = new Clock();
 		c.setTime("1234");
