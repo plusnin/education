@@ -4,7 +4,7 @@ class Main {
 		Human human = null;
 		human = new Human();
 		human.age = 12;
-		System.out.println(human.age);
+		System.out.println("HUman age = " + human.age);
 		human = null;
 
 	}
